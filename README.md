@@ -14,9 +14,8 @@ This project is part of **[The Odin Project Foundations Course](https://www.theo
    - [Installation](#installation)
 5. [Usage](#usage)
 6. [Project Structure](#project-structure)
-7. [Contributing](#contributing)
-8. [License](#license)
-9. [Acknowledgments](#acknowledgments)
+7. [License](#license)
+8. [Acknowledgments](#acknowledgments)
 
 ---
 
@@ -69,3 +68,33 @@ By completing this project, I’ve reinforced my understanding of:
 
    ```bash
    git clone git@github.com:your-username/odin-recipes.git
+   ```
+2. **Change into the Project Directory**
+
+    ```bash
+    cd odin-recipes
+    ```
+3. **View the Project**
+
+### Usage
+- Open index.html in any modern web browser.
+- On the Odin Recipes homepage, you’ll find a list of three recipes.
+- Click any recipe link to view its dedicated page.
+- Use the Home link on each recipe page to return to the main index.
+
+### Project Structure
+
+- **odin-recipes/**
+  - `index.html` – Main homepage with links to recipes
+  - **recipes/**
+    - `pizza.html` – Homemade pizza recipe
+    - `lasagna.html` – Lasagna recipe
+    - `tiramisu.html` – Tiramisu recipe
+
+### License
+This project is available under the MIT License. Feel free to customize it to fit your own needs.
+
+### Acknowledgments
+- [The Odin Project](https://www.theodinproject.com/) for providing the guidance and structure for this assignment.
+- [Allrecipes](https://www.allrecipes.com/) for recipe inspiration.
+- Everyone who tries these recipes at home. Enjoy cooking! 🍽️
